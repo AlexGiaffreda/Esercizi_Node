@@ -1,0 +1,8 @@
+REPL:
+
+> function  generateId(){
+... return console.log(
+... global.crypto.randomUUID())
+... }
+> generateId()
+96668
