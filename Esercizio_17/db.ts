@@ -1,6 +1,6 @@
 import pgPromise = require("pg-promise");
 
-const db = pgPromise()("chiara//chiara:chiara@localhost:5432/planets");
+const db = pgPromise()("alex//alex:alex@localhost:5432/planets");
 const setuDb = async () => {
   await db.none(`
   DROP TABLE IF EXISTS planets;
